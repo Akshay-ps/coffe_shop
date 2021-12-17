@@ -1,0 +1,322 @@
+body{
+     background-image: url("./images/COFEE.jpg");
+     background-size: 1360px;
+    background-repeat: no-repeat;
+    color:rgb(92, 28, 28);
+    padding-left: 10px;
+    height: fit-content;
+    
+
+}
+
+.header {
+    width: 100%;
+    height: 65px;
+    margin-top: -5px;
+    
+    border-radius: 10px;
+    overflow:hidden;
+    background-color: rgba(82, 81, 81, 0.473);
+    padding:  10px;
+    position: sticky;
+    top: 0;
+    
+    
+}
+#heading1{
+    font-size: 60px;
+   
+  
+}
+#p1,#p2,#p3{
+    animation-duration: 2s;
+    animation-name: slidein;
+       
+}
+@keyframes slidein {
+    from{
+        margin-left:50%;
+    }
+    to{
+        margin-left:0%;
+    }
+    
+}
+
+
+.header a {
+    float: right;
+    color:rgb(255, 250, 250);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+   
+}
+.ab:hover:hover{
+    transform: scale(1.2);
+    color: brown;
+}
+#p1,#p2,#p3,#p5,#p6{
+    font-family: 'Corinthia', cursive;
+}
+#heading1{
+    color:rgb(92, 28, 28);
+    margin-top: -1px;
+    margin-bottom: -4%;
+}
+#heading1:hover{
+    
+    color: rgb(44, 33, 33);
+}
+
+.caption1{
+    margin-top: -15px;
+    font-size:larger;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(82, 82, 82, 0.5);
+    border-radius: 8px;
+   
+    
+    
+}
+.caption:hover{
+    font-size: large;
+    color: brown;
+    font-weight: 1000;
+
+    
+    
+    -webkit-animation: zoomin 1s 1;
+    
+}
+@-webkit-keyframes zoomin {
+    0% {
+        -webkit-transform: scale(1.1);
+    }
+    100% {
+        -webkit-transform: scale(0.5);
+    }
+}
+.main{
+    width: 70%;
+    height: 5200px;
+    margin-top: 15PX;
+    padding-left: 10px  ;
+    border-radius: 10px;
+    
+}
+.popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    
+    
+}
+.contentbox:hover{
+    background-color: rgba(177, 173, 173, 0.871);
+}
+.contentbox{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background: rgba(238, 235, 235, 0.904);
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+     -webkit-animation: zoomin 2s 1;
+    
+}
+@-webkit-keyframes zoomin {
+    0% {
+        -webkit-transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1.1);
+    }
+
+   
+}
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: #f3f3f3 url(close.png);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 50px;
+    z-index: 10;
+    
+}
+.main2{
+    background-color: rgba(216, 215, 215, 0);
+    width: 144%;
+    height: 550px;
+    border-radius: 10px;
+}
+ul{
+    font-size: larger;
+    font-family: 'Corinthia', cursive;
+}
+.d1{
+    font-family: 'Corinthia', cursive;
+    float: left;
+    width: 250px;
+    height: 430px;
+    background-color: rgba(128, 128, 128, 0.02) ;
+    
+    padding-left: 10px;
+    align-items: center;
+
+}
+.b2,.b4{
+    text-align: center;
+    padding-top: -10px;
+}
+.b1,.b3,.b5{
+    text-align: center;
+    
+    padding-top: 40px;
+
+}
+#brew{
+    width: 797px;
+    margin-left: 30%;
+}
+#brands{
+    background-color: rgba(128, 128, 128, 0.089);
+    width: 142%;
+    height: 1190px;
+    border-radius: 10px;
+}
+.pics{
+    width: 40%;
+    height: 300px;
+    background-color: rgb(255, 0, 0);
+    border: black solid 2px;
+    border-radius: 8px;
+    float: left;
+    
+    
+
+}
+#starbucks{
+    width: 526px;
+    height: 300px;
+}
+
+#stabucks:hover{
+    transform: scale(1.1);
+  
+}
+#para{
+    margin-left: 10px;
+}
+#para2{
+    float: left;
+    width: 60%;
+    height: 335px;
+    
+}
+.pics2{
+    float: right;
+    width: 40%;
+    height: 335px;
+    
+    
+
+}
+#costa{
+    width: 525px;
+    border-radius: 10px;
+    height: 335px;
+    border: black solid 2px;
+}
+#mccafe{
+    width: 526px;
+    height: 300px;
+}
+#brandsname{
+    
+    text-align: center;
+}
+.footer{
+    background-color: grey;
+    height: 100px;
+    width: 105%;
+    margin-top:-2500px;
+}
+.search-text {
+    padding-bottom: 60px;
+ }
+     
+ .search-text .input-search {
+     height: 45px;
+     width: 40%;
+     padding-left: 20px;
+     color: #333;
+     margin-left: 25%;
+ } 
+ 
+ .search-text .btn-search {
+     background: #f30000;
+     border: none;
+     color: #FFF;
+     height: 45px;
+     width: 80px;
+    
+     
+ }
+ .sign{
+    margin-top: 40px;
+    margin-left: 25%;
+
+ }
+ 
+ .search-text h4 {
+     color: #888582;
+     font-weight: 700;
+ }
+ .footer-top{
+     margin-top: 0px;
+     background-color: grey;
+     height: 100px;
+     width: 110%;
+ }
+  .fa {
+    background: #333333;
+    color: #FFF;
+
+    border-radius: 20%;
+    font-size: 14px;
+  
+    
+} 
+.fa-2x{
+    margin-left: 10px;
+}
+
+.footer-top .fa:hover {
+    color: #FFF;
+    background: #7dabdb;
+    transition: all 2s ease-in-out;
+} 
+
+.footer-top a {
+    color: #FFF;
+    text-decoration: none;
+ 
+}
+#uknow{
+margin-left: 30%;
+}
